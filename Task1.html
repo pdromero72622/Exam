@@ -1,0 +1,45 @@
+<html> 
+    <head>
+        <title>Div Hello World</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+                margin: 0;
+                background-color: white;
+            }
+            .rectangle {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                position: relative;
+            }
+            .div1 {
+                width: 450px;
+                height: 300px;
+                background-color: white;
+            }
+            .div2 {
+                width: 100px;
+                height: 50px;
+                background-color: white;
+            }
+            .rectangle div {
+                position: absolute;
+                text-align: center;
+                color: black;
+                font-weight: regular;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="rectangle div1">
+            <div class="rectangle div2">
+                Hello world!
+            </div>
+        </div>
+    </body>
+</html>
